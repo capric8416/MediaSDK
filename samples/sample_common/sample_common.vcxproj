@@ -22,7 +22,7 @@
     <ProjectGuid>{5FADB243-53C3-4776-A20F-8BD65C10CF41}</ProjectGuid>
     <RootNamespace>sample_common</RootNamespace>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
@@ -193,7 +193,6 @@
     <ClInclude Include="include\sysmem_allocator.h" />
     <ClInclude Include="include\time_statistics.h" />
     <ClInclude Include="include\version.h" />
-    <ClInclude Include="include\vpp_ex.h" />
     <ClInclude Include="include\vm\atomic_defs.h" />
     <ClInclude Include="include\vm\file_defs.h" />
     <ClInclude Include="include\vm\so_defs.h" />
@@ -219,7 +218,6 @@
     <ClCompile Include="src\preset_manager.cpp" />
     <ClCompile Include="src\sample_utils.cpp" />
     <ClCompile Include="src\sysmem_allocator.cpp" />
-    <ClCompile Include="src\vpp_ex.cpp" />
     <ClCompile Include="src\vm\atomic.cpp" />
     <ClCompile Include="src\vm\shared_object.cpp" />
     <ClCompile Include="src\vm\thread_windows.cpp" />
